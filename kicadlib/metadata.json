@@ -1,0 +1,30 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "glasgow-hats",
+    "description": "Symbols and footprint for the ports on the Glasgow",
+    "description_full": "You may need to manually update the library tables in the Library Manager to get the new symbols and footprints to show up.\n\nThis library has symbols and a footprint for single and dual port Glasgow HATs.",
+    "identifier": "com.github.jkominek.glasgow-hats",
+    "type": "library",
+    "author": {
+        "name": "Jay Kominek",
+        "contact": {
+            "web": "https://github.com/jkominek/"
+        }
+    },
+    "license": "CC0-1.0",
+    "resources": {
+        "github": "https://github.com/jkominek/glasgow-hats"
+    },
+    "tags": [
+        "symbols",
+        "footprints",
+        "glasgow"
+    ],
+    "versions": [
+        {
+            "version": "0.0.1",
+            "status": "testing",
+            "kicad_version": "8.0"
+        }
+    ]
+}

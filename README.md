@@ -3,6 +3,13 @@
 okay there's just one so far but i've got another one i just haven't
 put together yet. it's pretty simple, too.
 
+## kicad library
+
+in the 'kicadlib' directory, and the Releases area of github, there's
+a downloadable library you can install into kicad which includes two
+symbols and a footprint for making glasgow HATs. see the README in that
+directory for more details.
+
 ## super breakout screw terminal hat
 
 the name could use some work. brings the pins multiple ways, ending
