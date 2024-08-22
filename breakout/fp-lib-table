@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "kicadlib")(type "KiCad")(uri "/home/fridtjof/repos/glasgow-hats/kicadlib.pretty")(options "")(descr ""))
+  (lib (name "Glasgow")(type "KiCad")(uri "/home/fridtjof/repos/glasgow-hats/kicadlib/footprints/Glasgow.pretty")(options "")(descr ""))
+)

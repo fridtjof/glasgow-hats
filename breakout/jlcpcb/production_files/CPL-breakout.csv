@@ -1,1 +1,9 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,Glasgow,PinSocket_2x10_P2.54mm_Vertical,134.77,-86.39,0.0,bottom
+J2,ScrewTerminals,TerminalBlock_not_WAGO_233-512_2x12_P2.54mm,182.7,-86.37,-90.0,top
+J3,SignalsMale,PinHeader_1x10_P2.54mm_Vertical,148.5,-86.35,0.0,top
+J4,SignalsFemale,PinSocket_1x10_P2.54mm_Vertical,143.5,-86.35,0.0,top
+J5,SignalsMale,PinHeader_1x10_P2.54mm_Vertical,153.5,-86.39,0.0,top
+J6,SignalsFemale,PinSocket_1x10_P2.54mm_Vertical,158.5,-86.35,0.0,top
+J7,TestPoints,PinHeader_1x08_P2.54mm_Vertical,168.5,-86.35,0.0,top
+J9,FX2LA,PinSocket_2x05_P2.54mm_Vertical,128.23,-86.58,0.0,top

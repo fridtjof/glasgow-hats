@@ -1,0 +1,9 @@
+Comment,Designator,Footprint,LCSC
+FX2LA,J9,PinSocket_2x05_P2.54mm_Vertical,
+SignalsMale,J5,PinHeader_1x10_P2.54mm_Vertical,
+SignalsFemale,J4,PinSocket_1x10_P2.54mm_Vertical,
+SignalsMale,J3,PinHeader_1x10_P2.54mm_Vertical,
+TestPoints,J7,PinHeader_1x08_P2.54mm_Vertical,
+ScrewTerminals,J2,TerminalBlock_not_WAGO_233-512_2x12_P2.54mm,
+SignalsFemale,J6,PinSocket_1x10_P2.54mm_Vertical,
+Glasgow,J1,PinSocket_2x10_P2.54mm_Vertical,
