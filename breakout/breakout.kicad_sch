@@ -2867,6 +2867,179 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -3149,6 +3322,10 @@
 		(uuid "abebc5dc-6d32-4253-a3e2-fee57331eb71")
 	)
 	(no_connect
+		(at 73.66 34.29)
+		(uuid "b87c7008-e60b-4ef3-8a34-0d37bfcb4482")
+	)
+	(no_connect
 		(at 77.47 92.71)
 		(uuid "fc887614-0912-4ef7-8eea-bf4ece4ed3ca")
 	)
@@ -3371,6 +3548,16 @@
 			(type default)
 		)
 		(uuid "30411c08-0393-4212-83f1-06484d53b071")
+	)
+	(wire
+		(pts
+			(xy 55.88 34.29) (xy 55.88 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3167b35e-e60e-4957-891a-730cbdb7e842")
 	)
 	(wire
 		(pts
@@ -3954,6 +4141,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 39.37) (xy 81.28 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2cb9c29-3114-428f-a2ed-ccf55a423516")
+	)
+	(wire
+		(pts
 			(xy 143.51 72.39) (xy 151.13 72.39)
 		)
 		(stroke
@@ -4201,6 +4398,16 @@
 			(type default)
 		)
 		(uuid "fde1541f-4bc3-4784-879b-172698c1beb5")
+	)
+	(wire
+		(pts
+			(xy 55.88 36.83) (xy 63.5 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe84b1c3-0387-46ce-911a-eedcd3dd3b8c")
 	)
 	(wire
 		(pts
@@ -4870,6 +5077,17 @@
 			(justify right bottom)
 		)
 		(uuid "e48611ee-743e-437d-b104-a67af09a5f36")
+	)
+	(label "VSENSE"
+		(at 81.28 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e790a464-0e29-4249-adb9-e7664cc3bbd6")
 	)
 	(label "D1"
 		(at 124.46 124.46 180)
@@ -6251,6 +6469,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 55.88 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b61c6a94-9422-4e1d-a389-23beec1c2ca6")
+		(property "Reference" "#PWR014"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 55.88 30.1569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 55.88 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23c91e35-edc2-43ce-a6ba-da27b4b25807")
+		)
+		(instances
+			(project "breakout"
+				(path "/611ff545-19b3-4976-9e7e-acfa9fe1d3fb"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 142.24 90)
 		(unit 1)
@@ -6600,6 +6885,77 @@
 			(project "glasgow2wires"
 				(path "/611ff545-19b3-4976-9e7e-acfa9fe1d3fb"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 68.58 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f89252ee-7184-4375-8a0e-a85d96af184e")
+		(property "Reference" "SW1"
+			(at 68.58 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
+			(at 68.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 68.58 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a19dc909-24fd-4b0f-9e72-d30c12995764")
+		)
+		(pin "1"
+			(uuid "44fdec5a-250a-4e90-9fd7-06980ce315a1")
+		)
+		(pin "3"
+			(uuid "04972487-6c08-42ae-b785-85edc546b8cc")
+		)
+		(instances
+			(project ""
+				(path "/611ff545-19b3-4976-9e7e-acfa9fe1d3fb"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
